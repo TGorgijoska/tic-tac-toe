@@ -5,8 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    
+    <header class="header">
+        <h1>Tic-Tac-Toe</h1>
+    </header>
+    <main>
+        <div class="modal ">
+            <div class="modal__content">
+                <form action="" class="form">
+                    <label for="a">Player A:</label>
+                    <input type="text" id="a">
+                    <label for="b">Player B:</label>
+                    <input type="text" id="b">
+                    <button type="submit" class="start" id="start">Start</button>
+                </form>
+            </div>
+        </div>
+        <div class="turn"><span id="player">Player 1</span> turn</div>
+        <div class="winner"></div>
+        <div class="gameboard">
+            <div class="gameboard_piece disable"><img src="images/o.png" alt=""></div>
+            <div class="gameboard_piece"><img src="" alt=""></div>
+            <div class="gameboard_piece"><img src="" alt=""></div>
+            <div class="gameboard_piece"><img src="" alt=""></div>
+            <div class="gameboard_piece"><img src="" alt=""></div>
+            <div class="gameboard_piece"><img src="" alt=""></div>
+            <div class="gameboard_piece"><img src="" alt=""></div>
+            <div class="gameboard_piece"><img src="" alt=""></div>
+            <div class="gameboard_piece"><img src="" alt=""></div>
+        </div>
+        <div class="btn">
+            <button class="start" id="restart">Restart</button>
+        </div>
+    </main>
+
+    <script src="scripts/script.js"></script>
 </body>
 </html>
