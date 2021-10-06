@@ -16,25 +16,25 @@
             <div class="modal__content">
                 <form action="" class="form">
                     <label for="a">Player A:</label>
-                    <input type="text" id="a">
+                    <input type="text" id="a" placeholder="PlayerA">
                     <label for="b">Player B:</label>
-                    <input type="text" id="b">
+                    <input type="text" id="b" placeholder="PlayerB">
                     <button type="submit" class="start" id="start">Start</button>
                 </form>
             </div>
         </div>
-        <div class="turn"><span id="player">Player 1</span> turn</div>
-        <div class="winner"></div>
+        <div class="display" id="player"></div>
+        <div class="display" id="winner"></div>
         <div class="gameboard">
-            <div class="gameboard_piece disable"><img src="images/o.png" alt=""></div>
-            <div class="gameboard_piece"><img src="" alt=""></div>
-            <div class="gameboard_piece"><img src="" alt=""></div>
-            <div class="gameboard_piece"><img src="" alt=""></div>
-            <div class="gameboard_piece"><img src="" alt=""></div>
-            <div class="gameboard_piece"><img src="" alt=""></div>
-            <div class="gameboard_piece"><img src="" alt=""></div>
-            <div class="gameboard_piece"><img src="" alt=""></div>
-            <div class="gameboard_piece"><img src="" alt=""></div>
+            <div class="gameboard_piece" data-position="0"><img src="" alt=""></div>
+            <div class="gameboard_piece" data-position="1"><img src="" alt=""></div>
+            <div class="gameboard_piece" data-position="2"><img src="" alt=""></div>
+            <div class="gameboard_piece" data-position="3"><img src="" alt=""></div>
+            <div class="gameboard_piece" data-position="4"><img src="" alt=""></div>
+            <div class="gameboard_piece" data-position="5"><img src="" alt=""></div>
+            <div class="gameboard_piece" data-position="6"><img src="" alt=""></div>
+            <div class="gameboard_piece" data-position="7"><img src="" alt=""></div>
+            <div class="gameboard_piece" data-position="8"><img src="" alt=""></div>
         </div>
         <div class="btn">
             <button class="start" id="restart">Restart</button>
